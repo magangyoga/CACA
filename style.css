@@ -1,0 +1,87 @@
+/* Import Font Estetik dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;700&display=swap');
+
+/* Mengatur Latar Belakang Aplikasi secara keseluruhan */
+.stApp {
+    background: linear-gradient(135deg, #f0e6ff 0%, #ffe6f0 100%); /* Warna pastel lembut: Lavender dan Pink */
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Mengatur Tampilan Kartu Ulang Tahun */
+.birthday-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px; /* Sudut membulat */
+    box-shadow: 0 10px 40px rgba(255, 105, 180, 0.2); /* Bayangan dengan warna pink */
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+    border: 3px solid #ffb6c1; /* Border tipis pink */
+}
+
+/* Mengatur Teks Judul Utama */
+h1 {
+    color: #ff69b4; /* Warna pink cerah (Hot Pink) */
+    font-family: 'Pacifico', cursive; /* Font yang lebih dekoratif */
+    margin-bottom: 20px;
+    font-size: 3.5em;
+    text-shadow: 3px 3px 7px rgba(255, 105, 180, 0.4);
+}
+
+/* Mengatur Judul Kecil (misalnya 'Spesial untukmu!') */
+h3 {
+    color: #8a2be2; /* Warna ungu */
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+/* Mengatur Kotak Pesan */
+.message-box {
+    text-align: justify;
+    margin: 30px 0;
+    padding: 25px;
+    background-color: #fff0f5; /* Latar belakang kotak pesan */
+    border-left: 6px solid #ff69b4;
+    border-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.message-box p {
+    font-size: 1.15em;
+    line-height: 1.7;
+    color: #4a4a4a;
+}
+
+/* Mengatur Tanda Tangan */
+.signature {
+    margin-top: 25px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    color: #8a2be2; /* Warna ungu */
+}
+
+/* Mengatur Container Tombol agar berada di tengah */
+.center-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Mengatur Tampilan Tombol */
+.stButton>button {
+    background-color: #ffb6c1; /* Warna tombol pink pastel */
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px; /* Lebih membulat */
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 182, 193, 0.5);
+}
+
+.stButton>button:hover {
+    background-color: #ff69b4; /* Warna hover yang lebih cerah */
+    transform: translateY(-3px); /* Efek terangkat */
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.4);
+}
